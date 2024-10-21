@@ -1,0 +1,35 @@
+header {
+    padding: 20px 10px;
+    background-color: #f8f9fa;
+    margin: -8px -8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+header h3 { 
+    display: inline;
+    margin-right: 10px;
+}
+
+header button {
+    padding: 4px 8px;
+    background-color: #535353;
+    color: #efefef;
+    border-radius: 3px;
+}
+
+header input {
+    padding: 4px 8px;
+}
+
+#results {
+    padding: 40px 40px;
+    text-align: center;
+}
+
+#results img {
+    width: 400px;
+    height: 560px; 
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 0px 10px 10px 0px;
+}
