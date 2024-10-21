@@ -69,6 +69,11 @@ async function searchUsingFetchAsynAwait() {
 }
 
 function createImages(data) {
+    // handle no images found
+    if(data.total == 0) {
+        alert("No images were found!, try changing the search query")
+    }
+
     const resultsElm = document.getElementById("results");
     resultsElm.innerHTML = "";
 
